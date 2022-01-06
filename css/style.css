@@ -48,7 +48,7 @@
 }
 
 header .head-menu {
-  background-color: #ebebeb ;
+  background-color: #ebebeb;
   position: relative;
 }
 header .head-menu ul {
@@ -60,7 +60,7 @@ header .head-menu ul li {
   width: 17%;
   border-right: 1px solid #fdfdfd;
 }
-header .head-menu ul li:last-child{
+header .head-menu ul li:last-child {
   border-right: none;
 }
 .dropdown-lists {
@@ -74,7 +74,7 @@ header .dropdown-lists ul {
   display: block;
 }
 
-header .dropdown-lists ul li{
+header .dropdown-lists ul li {
   width: 100%;
   border-right: none;
 }
@@ -119,7 +119,7 @@ header .head-menu ul li a:hover {
 }
 
 header .head {
-  background-color: #ffffff ;
+  background-color: #ffffff;
   z-index: 998;
   position: fixed;
   width: 100%;
@@ -133,7 +133,8 @@ header .head {
   float: right;
 }
 
-.head .register-btn a , .head .login-btn a {
+.head .register-btn a,
+.head .login-btn a {
   display: block;
   width: 185px;
   height: 30px;
@@ -293,13 +294,13 @@ header .head {
 }
 
 .content02-list .lists p {
-    white-space: nowrap;
-    position: relative;
-    top: 94%;
-    text-align: center;
-    font-weight: 500;
-    font-size: 14px;
-    color: black;
+  white-space: nowrap;
+  position: relative;
+  top: 94%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  color: black;
 }
 
 .dagon {
@@ -339,7 +340,7 @@ footer .copy-right {
   margin-top: 15px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .s-pc {
     display: none;
   }
@@ -351,10 +352,10 @@ footer .copy-right {
   .container {
     width: 100%;
   }
-  header .sp-head-right  {
+  header .sp-head-right {
     display: block;
   }
-  
+
   .menu-bar {
     position: absolute;
     top: 0px;
@@ -430,7 +431,7 @@ footer .copy-right {
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    background-color:  #1c5544cc;
+    background-color: #1c5544cc;
     border-bottom: 1px solid #cacaca;
     overflow-y: scroll;
     z-index: 999;
@@ -440,7 +441,7 @@ footer .copy-right {
     padding: 10px 0px 10px 0px;
     border-bottom: 1px solid #aec7c0cc;
   }
-  .sp-gnav ul li a{
+  .sp-gnav ul li a {
     color: #fff;
   }
 
@@ -486,4 +487,3 @@ footer .copy-right {
     margin: 0 auto;
   }
 }
-
