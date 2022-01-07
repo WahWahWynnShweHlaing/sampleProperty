@@ -13,3 +13,29 @@ $(function () {
     return false;
   });
 });
+
+/**
+ * スティッキーヘッダー
+ */
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+      $(".header").addClass("sticky");
+    } else {
+      $(".header").removeClass("sticky");
+    }
+  });
+});
+
+/**
+ * スティッキーヘッダー for sp
+ */
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+      $(".sp-head-right").addClass("sticky");
+    } else {
+      $(".sp-head-right").removeClass("sticky");
+    }
+  });
+});
